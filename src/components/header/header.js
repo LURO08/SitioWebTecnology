@@ -97,8 +97,11 @@ function Header() {
                     </>
                 )}
 
+
+                
+
                 <a onClick={toggleCart}>
-                    <img src="img/carritoCompras2.png" alt="Carrito" width={25} height={25} />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/e-commers-67174.appspot.com/o/carritoCompras2.png?alt=media&token=69e9b11c-b714-44a7-ba7d-25d4c54ba620" alt="Carrito" width={25} height={25} />
                     <span>{totalItemsInCart}</span>
                 </a>
 

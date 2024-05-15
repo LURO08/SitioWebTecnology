@@ -6,13 +6,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAO61pMBFpSV53R6RaYTTFicXSYXz2Iyjc",
-  authDomain: "ecommers-161ad.firebaseapp.com",
-  databaseURL: "https://ecommers-161ad-default-rtdb.firebaseio.com",
-  projectId: "ecommers-161ad",
-  storageBucket: "ecommers-161ad.appspot.com",
-  messagingSenderId: "344735620728",
-  appId: "1:344735620728:web:6a34f0e67fad2dcdeed78d"
+  apiKey: "AIzaSyAkhfP7nPHafrZ0K8PursVR5PEiA60FZf0",
+  authDomain: "e-commers-67174.firebaseapp.com",
+  projectId: "e-commers-67174",
+  storageBucket: "e-commers-67174.appspot.com",
+  messagingSenderId: "241953923823",
+  appId: "1:241953923823:web:377db761230c0d57aa311a"
 };
 // Inicializa Firebase
 const app = initializeApp(firebaseConfig);
