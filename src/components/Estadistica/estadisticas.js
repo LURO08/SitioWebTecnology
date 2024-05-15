@@ -16,6 +16,8 @@ function TopProductsChart() {
                     id: doc.id,
                     ...doc.data()
                 }));
+                // Ordena los productos por ventas en orden descendente
+                productList.sort((a, b) => b.ventas - a.ventas);
                 setProducts(productList);
             } catch (error) {
                 console.error("Error fetching products: ", error);
